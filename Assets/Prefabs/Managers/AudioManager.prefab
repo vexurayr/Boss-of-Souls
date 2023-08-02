@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4843360163644654438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3261462144409438285}
+  - component: {fileID: 6021517157218115575}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3261462144409438285
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4843360163644654438}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6021517157218115575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4843360163644654438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dc2c64fbf5fe18479257b709111d5fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: 42a6e4e230cce4646953a0dd33a9d75a, type: 3}
+    audioName: Main Menu Music
+    isAudioMuted: 0
+    volume: 0.35
+    pitch: 1
+    spacialBlend: 0
+    isLooping: 1
+    mixerGroup: {fileID: -6567185558255739561, guid: 0f5b66f4e5ab0c84898cf4c5711ad011, type: 2}
+  - clip: {fileID: 8300000, guid: 90ababe09e5f51b4698e29c5a5c2256a, type: 3}
+    audioName: Punch Swing
+    isAudioMuted: 0
+    volume: 1
+    pitch: 1
+    spacialBlend: 0
+    isLooping: 0
+    mixerGroup: {fileID: -4301351605127873137, guid: 0f5b66f4e5ab0c84898cf4c5711ad011, type: 2}
+  - clip: {fileID: 8300000, guid: 91158680796b1bf4ba7a5430a3fa128d, type: 3}
+    audioName: Button
+    isAudioMuted: 0
+    volume: 0.9
+    pitch: 1
+    spacialBlend: 0
+    isLooping: 0
+    mixerGroup: {fileID: -4301351605127873137, guid: 0f5b66f4e5ab0c84898cf4c5711ad011, type: 2}
+  - clip: {fileID: 8300000, guid: dd5d497cc8d877f4db9818f9e3fda065, type: 3}
+    audioName: Player Death
+    isAudioMuted: 0
+    volume: 0.5
+    pitch: 1
+    spacialBlend: 0
+    isLooping: 0
+    mixerGroup: {fileID: -4301351605127873137, guid: 0f5b66f4e5ab0c84898cf4c5711ad011, type: 2}
+  - clip: {fileID: 8300000, guid: fc33b787e6b697540ac616d60e3789d4, type: 3}
+    audioName: Player Hit
+    isAudioMuted: 0
+    volume: 1
+    pitch: 1
+    spacialBlend: 1
+    isLooping: 0
+    mixerGroup: {fileID: -4301351605127873137, guid: 0f5b66f4e5ab0c84898cf4c5711ad011, type: 2}
+  - clip: {fileID: 8300000, guid: b9d15232b19e0a9498f9eb61341deda4, type: 3}
+    audioName: Walking
+    isAudioMuted: 0
+    volume: 1
+    pitch: 0.5
+    spacialBlend: 1
+    isLooping: 0
+    mixerGroup: {fileID: -4301351605127873137, guid: 0f5b66f4e5ab0c84898cf4c5711ad011, type: 2}
+  - clip: {fileID: 8300000, guid: 00379ff33019bab4c9495c70aa3c3ff7, type: 3}
+    audioName: Game Music
+    isAudioMuted: 0
+    volume: 0.35
+    pitch: 1
+    spacialBlend: 0
+    isLooping: 1
+    mixerGroup: {fileID: -6567185558255739561, guid: 0f5b66f4e5ab0c84898cf4c5711ad011, type: 2}
+  - clip: {fileID: 8300000, guid: f3a0105a44904804baef3df26545a141, type: 3}
+    audioName: Sword
+    isAudioMuted: 0
+    volume: 0.4
+    pitch: 1
+    spacialBlend: 0
+    isLooping: 0
+    mixerGroup: {fileID: -4301351605127873137, guid: 0f5b66f4e5ab0c84898cf4c5711ad011, type: 2}
+  - clip: {fileID: 8300000, guid: e556403611c60f9449d98d0a1c51f36a, type: 3}
+    audioName: Arrow
+    isAudioMuted: 0
+    volume: 0.1
+    pitch: 1
+    spacialBlend: 0
+    isLooping: 0
+    mixerGroup: {fileID: -4301351605127873137, guid: 0f5b66f4e5ab0c84898cf4c5711ad011, type: 2}
+  - clip: {fileID: 8300000, guid: 8fd000dbe4be155449c845640150d33c, type: 3}
+    audioName: Wave Spawn
+    isAudioMuted: 0
+    volume: 0.2
+    pitch: 1
+    spacialBlend: 0
+    isLooping: 0
+    mixerGroup: {fileID: -4301351605127873137, guid: 0f5b66f4e5ab0c84898cf4c5711ad011, type: 2}
